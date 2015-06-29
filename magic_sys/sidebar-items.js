@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["Magic",""]],"fn":[["magic_buffer",""],["magic_check",""],["magic_close",""],["magic_compile",""],["magic_descriptor",""],["magic_errno",""],["magic_error",""],["magic_file",""],["magic_list",""],["magic_load",""],["magic_open",""],["magic_setflags",""]]});

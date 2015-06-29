@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `flags` mod in crate `magic`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, flags">
+
+    <title>magic::flags - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../../main.css">
+
+    
+    
+</head>
+<body class="rustdoc">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <section class="sidebar">
+        
+        <p class='location'><a href='../index.html'>magic</a></p><script>window.sidebarCurrent = {name: 'flags', ty: 'mod', relpath: '../'};</script><script defer src="../sidebar-items.js"></script>
+    </section>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press 'S' to search, '?' for more options..."
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content mod">
+<h1 class='fqn'><span class='in-band'>Module <a href='../index.html'>magic</a>::<wbr><a class='mod' href=''>flags</a></span><span class='out-of-band'><span id='render-detail'>
+            <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                [<span class='inner'>&#x2212;</span>]
+            </a>
+        </span><a id='src-16' class='srclink' href='../../src/magic/lib.rs.html#56-144' title='goto source code'>[src]</a></span></h1>
+<div class='docblock'><p>Bitmask flags which control <code>libmagic</code> behaviour</p>
+</div><h2 id='structs' class='section-header'><a href="#structs">Structs</a></h2>
+<table>
+                    <tr class=' module-item'>
+                        <td><a class='struct' href='struct.CookieFlags.html'
+                               title='magic::flags::CookieFlags'>CookieFlags</a></td>
+                        <td class='docblock short'>
+                             <p>Bitmask flags that specify how <code>Cookie</code> functions should behave</p>
+
+                        </td>
+                    </tr>
+                </table><h2 id='constants' class='section-header'><a href="#constants">Constants</a></h2>
+<table>
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.APPLE.html'
+                               title='magic::flags::APPLE'>APPLE</a></td>
+                        <td class='docblock short'>
+                             <p>Return the Apple creator and type</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.CHECK.html'
+                               title='magic::flags::CHECK'>CHECK</a></td>
+                        <td class='docblock short'>
+                             <p>Print warnings to stderr</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.COMPRESS.html'
+                               title='magic::flags::COMPRESS'>COMPRESS</a></td>
+                        <td class='docblock short'>
+                             <p>Check inside compressed files</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.CONTINUE.html'
+                               title='magic::flags::CONTINUE'>CONTINUE</a></td>
+                        <td class='docblock short'>
+                             <p>Return all matches</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.DEBUG.html'
+                               title='magic::flags::DEBUG'>DEBUG</a></td>
+                        <td class='docblock short'>
+                             <p>Turn on debugging</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.DEVICES.html'
+                               title='magic::flags::DEVICES'>DEVICES</a></td>
+                        <td class='docblock short'>
+                             <p>Look at the contents of devices</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.ERROR.html'
+                               title='magic::flags::ERROR'>ERROR</a></td>
+                        <td class='docblock short'>
+                             <p>Handle <code>ENOENT</code> etc as real errors</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.MIME.html'
+                               title='magic::flags::MIME'>MIME</a></td>
+                        <td class='docblock short'>
+                             <p>Return the MIME type and encoding</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.MIME_ENCODING.html'
+                               title='magic::flags::MIME_ENCODING'>MIME_ENCODING</a></td>
+                        <td class='docblock short'>
+                             <p>Return the MIME encoding</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.MIME_TYPE.html'
+                               title='magic::flags::MIME_TYPE'>MIME_TYPE</a></td>
+                        <td class='docblock short'>
+                             <p>Return the MIME type</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.NONE.html'
+                               title='magic::flags::NONE'>NONE</a></td>
+                        <td class='docblock short'>
+                             <p>No flags</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.NO_CHECK_APPTYPE.html'
+                               title='magic::flags::NO_CHECK_APPTYPE'>NO_CHECK_APPTYPE</a></td>
+                        <td class='docblock short'>
+                             <p>Don&#39;t check application type</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.NO_CHECK_BUILTIN.html'
+                               title='magic::flags::NO_CHECK_BUILTIN'>NO_CHECK_BUILTIN</a></td>
+                        <td class='docblock short'>
+                             <p>No built-in tests; only consult the magic file</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.NO_CHECK_CDF.html'
+                               title='magic::flags::NO_CHECK_CDF'>NO_CHECK_CDF</a></td>
+                        <td class='docblock short'>
+                             <p>Don&#39;t check for cdf files</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.NO_CHECK_COMPRESS.html'
+                               title='magic::flags::NO_CHECK_COMPRESS'>NO_CHECK_COMPRESS</a></td>
+                        <td class='docblock short'>
+                             <p>Don&#39;t check for compressed files</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.NO_CHECK_ELF.html'
+                               title='magic::flags::NO_CHECK_ELF'>NO_CHECK_ELF</a></td>
+                        <td class='docblock short'>
+                             <p>Don&#39;t check for elf details</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.NO_CHECK_ENCODING.html'
+                               title='magic::flags::NO_CHECK_ENCODING'>NO_CHECK_ENCODING</a></td>
+                        <td class='docblock short'>
+                             <p>Don&#39;t check text encodings</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.NO_CHECK_SOFT.html'
+                               title='magic::flags::NO_CHECK_SOFT'>NO_CHECK_SOFT</a></td>
+                        <td class='docblock short'>
+                             <p>Don&#39;t check magic entries</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.NO_CHECK_TAR.html'
+                               title='magic::flags::NO_CHECK_TAR'>NO_CHECK_TAR</a></td>
+                        <td class='docblock short'>
+                             <p>Don&#39;t check for tar files</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.NO_CHECK_TEXT.html'
+                               title='magic::flags::NO_CHECK_TEXT'>NO_CHECK_TEXT</a></td>
+                        <td class='docblock short'>
+                             <p>Don&#39;t check for text files</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.NO_CHECK_TOKENS.html'
+                               title='magic::flags::NO_CHECK_TOKENS'>NO_CHECK_TOKENS</a></td>
+                        <td class='docblock short'>
+                             <p>Don&#39;t check tokens</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.PRESERVE_ATIME.html'
+                               title='magic::flags::PRESERVE_ATIME'>PRESERVE_ATIME</a></td>
+                        <td class='docblock short'>
+                             <p>Restore access time on exit</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.RAW.html'
+                               title='magic::flags::RAW'>RAW</a></td>
+                        <td class='docblock short'>
+                             <p>Don&#39;t translate unprintable chars</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.SYMLINK.html'
+                               title='magic::flags::SYMLINK'>SYMLINK</a></td>
+                        <td class='docblock short'>
+                             <p>Follow symlinks</p>
+
+                        </td>
+                    </tr>
+                </table></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <div id="help" class="hidden">
+        <div class="shortcuts">
+            <h1>Keyboard shortcuts</h1>
+            <dl>
+                <dt>?</dt>
+                <dd>Show this help dialog</dd>
+                <dt>S</dt>
+                <dd>Focus the search field</dd>
+                <dt>&larrb;</dt>
+                <dd>Move up in search results</dd>
+                <dt>&rarrb;</dt>
+                <dd>Move down in search results</dd>
+                <dt>&#9166;</dt>
+                <dd>Go to active search result</dd>
+            </dl>
+        </div>
+        <div class="infos">
+            <h1>Search tricks</h1>
+            <p>
+                Prefix searches with a type followed by a colon (e.g.
+                <code>fn:</code>) to restrict the search to a given type.
+            </p>
+            <p>
+                Accepted types are: <code>fn</code>, <code>mod</code>,
+                <code>struct</code>, <code>enum</code>,
+                <code>trait</code>, <code>typedef</code> (or
+                <code>tdef</code>).
+            </p>
+            <p>
+                Search functions by type signature (e.g.
+                <code>vec -> usize</code>)
+            </p>
+        </div>
+    </div>
+
+    
+
+    <script>
+        window.rootPath = "../../";
+        window.currentCrate = "magic";
+        window.playgroundUrl = "";
+    </script>
+    <script src="../../jquery.js"></script>
+    <script src="../../main.js"></script>
+    
+    <script async src="../../search-index.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["version","Returns the version of this crate in the format `MAJOR.MINOR.PATCH`."]],"mod":[["flags","Bitmask flags which control `libmagic` behaviour"]],"struct":[["Cookie",""],["MagicError","Represents a magic error. For the most part you should be using the `Error` trait to interact with rather than this struct."]]});
